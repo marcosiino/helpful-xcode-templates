@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>SwiftView</string>
+	<key>Description</key>
+	<string>Generates boilerplate code for a programmatic Swift UIKit view which has methods to setup the view hierarchy and coinstraints. If you want to build an UIKit view in swift entirely via code, use this template.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>exampleCode</string>
+			<key>Name</key>
+			<string>Add example code:</string>
+			<key>Description</key>
+			<string>Choose if you want to add example code for this view</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>None</string>
+			<key>Values</key>
+			<array>
+				<string>None</string>
+				<string>NSLayoutConstraints</string>
+				<string>Anchorage</string>
+			</array>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>Generates a programmatic Swift UIKit with boilerplate code to setup constraints and view hierarchy</string>
+	<key>Image</key>
+	<dict>
+		<key>Image</key>
+		<dict>
+			<key>FileTypeIcon</key>
+			<string>swift</string>
+		</dict>
+		<key>FileTypeIcon</key>
+		<string>swift</string>
+	</dict>
+</dict>
+</plist>
